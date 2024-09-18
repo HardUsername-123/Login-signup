@@ -1,0 +1,81 @@
+.loading-spinner {
+  /*loading design*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/*role-based registration form design*/
+.dot {
+  position: relative;
+}
+
+.text {
+  color: #ffff;
+  border-radius: 50px;
+  background-color: #0d6efd;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+}
+
+.textEmty {
+  color: #ffff;
+  border-radius: 50px;
+  background-color: #c4c4c4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #a2c7ff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* footer */
+.footer {
+  cursor: pointer;
+}
+
+.footer:hover {
+  color: #0d6efd;
+}
+
+/*Header design*/
+.header-shodow {
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Forgot password form design*/
+.form-box {
+  border: none;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.z-index {
+  z-index: 100;
+}
+
+.z-index-incre {
+  z-index: -100;
+}

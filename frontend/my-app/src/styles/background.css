@@ -1,0 +1,30 @@
+/* background for Home */
+.bg-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("https://blog.vsoftconsulting.com/hubfs/Dollarphotoclub_100539630.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+/* background for Login
+.bg-login {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("https://community.thriveglobal.com/wp-content/uploads/2019/08/doctor-patient.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* background for Register */
+/*
+.bg-register {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url(https://www.call4health.com/wp-content/uploads/2020/11/Doctor-with-patient-access-solution-1000x500.jpg);
+  background-size: cover;
+  background-position: center;
+} */
